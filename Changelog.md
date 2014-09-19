@@ -1,6 +1,11 @@
 ### 3.2.0 Development
 [Full Changelog](http://github.com/rspec/rspec-mocks/compare/v3.1.1...master)
 
+Enhancements:
+
+* Treat `any_args` as an arg splat, allowing it to match an arbitrary
+  number of args at any point in an arg list. (Myron Marston, #786)
+
 ### 3.1.1 / 2014-09-18
 [Full Changelog](http://github.com/rspec/rspec-mocks/compare/v3.1.0...v3.1.1)
 
